@@ -1,0 +1,88 @@
+#mainBody {/* background: url(../images/seperator.png) repeat-x 0 0; */ border-top:2px solid #dedede; padding-top: 18px;margin-top:34px;}
+#carouselBlk,#header{background: url(../images/headerRepeat.png) repeat-x 0 0 #f7f7f7; margin-top:35px;}
+#srchFld {background: url(../images/search.png) no-repeat 195px center #fff;margin-top: 30px;}
+.tag {background:url(../images/new.png) no-repeat 0 0; position: absolute; display:block; top: -4px;right: -18px; height:48px; width:48px;}
+.clr{clear:both;}
+.cntr{text-align:center}
+.marginLess{margin:0}
+#logoArea, #logoArea a{line-height:49px;}
+#logoArea .btn, #logoArea .btn-group {margin-top: 0;}
+#logo {padding-right:28px;}
+#welcomeLine{padding: 8px 0 4px}
+/* Sidebar--------- */
+#myCart  img{float:left; margin-right:8px; }
+#myCart .badge {padding: 9px;}
+#myCart {font-size: 13px;font-weight: bold; line-height: 33px;}
+#sidebar ul ul li a{ font-size:12px;}
+#sidebar ul {list-style: none;padding: 0;margin: 0;width: 100%;}
+#sidebar  li  a{font-weight:bold; background:url(../images/tabRepeatInactive.png) repeat-x 0 0; color:#262626;}
+#sidebar ul li li a{background:#eee; padding-left:14px;font-weight:normal;display:block;   font-size:13px; line-height:26px;}
+/* body--- */
+.thumbnail>a{display:block; text-align:center}
+.thumbnail h5,.thumbnail p{text-align:center}
+/* Product page--- */
+.alignR{text-align:right;}
+.control-label.alignL, .alignL{text-align:left;}
+.loginFrm{ margin-bottom:8px;}
+.loginFrm .control-group{padding:8px 14px 0; margin-bottom:0 }
+/* Compair product page */
+.checkbox input[type="checkbox"]{ margin:4px 0 8px -20px }
+#sm{text-align:right}
+#sm a {margin: 4px;width:32px;}
+/* Carousel  */
+#myCarousel{text-align:center; margin-bottom:0}
+#myCarousel .btn{position:absolute; bottom:10%; right:17%; padding:2% 6%; z-index:9999}
+#myCarousel .carousel-caption{display:none;}
+#myCarousel.homCar .item img{width:100%; max-height:506px}
+#productView .btn-toolbar{padding-left:3px;}
+#productDetail > li, .nav-pills > li {float: right;}
+#myTabContent{text-align:justify}
+#compairTbl td{text-align:center;}
+#accordion2, #legalNotice, .justify, #mainCol{text-align:justify}
+#myCarousel .carousel-control{display:none}
+#myCarousel:hover .carousel-control{display:block}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {color:#fff; background-color: #CF0007;text-shadow: none;}
+/* Footer section--------------- */
+#footerSection {position: fixed;bottom: 0;width: 100%;background: #202020;color: white;padding: 10px;border-top: 1px solid #444;}
+/* ===================================================== */
+.navbar-search .srchTxt {border-radius: 0;border: 1px solid #444;}
+[class^="icon-"], [class*=" icon-"] {background-image: none;}
+.navbar .nav > li > a {padding:10px;color: #DDD;text-shadow: none;font-size: 16px;}
+.navbar .nav > li > a:hover{color:#fff}
+#logoArea, #logoArea a{outline:none;}
+.alignR .checkbox input[type="checkbox"] {float: right;margin: 4px 0 8px 11px;}
+
+.navbar .nav.pull-right, #sideManu {overflow:hidden;}
+#logoArea  #smallScreen {margin: 21px 14px 0 0;}
+.navbar-search {margin-top: 8px;margin-right:90px;}
+/* Responsive--------------------- */
+/* Large desktop */
+@media (min-width: 1200px) {  }
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.navbar .brand {float: none;text-align: center;}
+#sideManu,#topMenu{height:0}
+.navbar-search {margin-top: 8px;width: 100%;float: none;}
+#topMenu{height: auto;float: none;}
+#topMenu li{float: none;}
+.navbar .nav > li > a {border-top:1px solid #666; padding:0}
+#sideManu,#topMenu{height:0}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.navbar .brand {float: none;text-align: center;}
+#header, #carouselBlk{margin: 10px -20px;}
+#sideManu,#topMenu{height:0}
+.navbar-search {margin-top: 8px;width: 100%;float: none;}
+#topMenu{height: auto;float: none;}
+#topMenu li{float: none;}
+.navbar .nav > li > a {border-top:1px solid #666; padding:0}
+ }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+#header, #carouselBlk{margin: 0 -20px;}
+#sideManu, #topMenu{height:0}
+#topMenu{height: auto;float: none;}
+#topMenu li{float: none;}
+.navbar .nav > li > a {border-top:1px solid #666; padding:0}
+}
